@@ -1,0 +1,112 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+     <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+     <link href='css/style.css' rel='stylesheet'/>
+     <link href='res/index.css' rel='stylesheet'/>
+     <script src='mobinweaverlibs/mobinweaver.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-connectivity.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-database.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-file.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-location.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-sensor.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-telephony.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-vibrate.js'></script>
+     <script src='mobinweaverlibs/mobinweaver-service-mediacapture.js'></script>
+</head>
+<body>
+
+<div id="changeskins">
+<p style="display:inline">换肤</p>
+<select >
+  <option value ="default">默认</option>
+  <option value ="red">红色</option>
+  <option value ="purple">紫色</option>
+  <option value="green">绿色</option>
+  <option value="yellow">黄色</option>
+</select>
+</div>
+<div id="slider5" class="swipe1">
+<ul id="videolist">
+<li style="display:block">
+<div>
+<video src="videos/test1.mp4" id="test1" class="video" webkit-playsinline >
+</video>
+</div>
+</li>
+<li style="display:none">
+<div>
+ <video src="videos/test2.mp4" id="test2" class="video" webkit-playsinline >
+</video>
+</div>
+</li>
+<li style="display:none">
+<div>
+ <video src="videos/test3.mp4" id="test3" class="video" webkit-playsinline>
+ </video>
+</div>
+</li>
+<li style="display:none">
+<div>
+ <video src="videos/test4.mp4" id="test4" class="video" webkit-playsinline>
+ </video>
+</div>
+</li>
+<li style="display:none">
+<div>
+ <video src="videos/test5.mp4"  id="test5" class="video" webkit-playsinline>
+ </video>
+</div>
+</li>
+</ul>
+</div>
+<div><input type="button" id="play" value="play/pause"></input></div>
+<div id="playbutton" class="hide"></div>
+<div class="direction">
+<a href='#'  id="sliderprev" ><img src="image/back.png"/></a> 
+<a href='#' id="slidernext" ><img src="image/forward.png"/></a>
+</div>
+<div class="adarea">
+advertisment
+</div>
+
+<!--
+<h2>Full width</h2>
+
+<div id='slider3' class='swipe'>
+  <ul>
+    <li style='display:block'><div><img src="videos/1.jpg" width="280" height="220" id="posterimg"/></div></li>
+    <li style='display:none'><div>2</div></li>
+    <li style='display:none'><div>3</div></li>
+    <li style='display:none'><div>4</div></li>
+    <li style='display:none'><div>5</div></li>
+  </ul>
+</div>
+
+<a href='#' onclick='slider3.prev();return false;'>prev</a> 
+<a href='#' onclick='slider3.next();return false;'>next</a>
+<br><br>
+
+<h2>Arbitrary Elements</h2>
+
+<div id='slider4' class='swipe'>
+  <div>
+    <div style='display:block'><div>1</div></div>
+    <div style='display:none'><div>2</div></div>
+    <div style='display:none'><div>3</div></div>
+    <div style='display:none'><div>4</div></div>
+    <div style='display:none'><div>5</div></div>
+  </div>
+</div>
+
+<a href='#' onclick='slider4.prev();return false;'>prev</a> 
+<a href='#' onclick='slider4.next();return false;'>next</a>
+<br><br>
+  -->
+
+<script src='js/swipe.js'></script>
+<script src='js/zepto.js'></script>
+<script src="js/playercontrol.js"></script>
+</body> 
+</html> 
